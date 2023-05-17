@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.produto-placa-mae{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.picture img{
+    width: 200px;
+    height: 200px;
+}
+
+.ultimas-avaliacoes-alert{
+    display: flex;
+}
+
+.sugestoes{
+    display: flex;
+}
+
+.estrela{
+    color: rgb(235, 235, 41);
+}
+
+.card{
+    height: fit-content;
+}
+
+.card-img-top{
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}
+
+.sugestoes .card{
+    display: flex;
+    align-items: center;
+}
+
+.sections {
+    width: 80%;
+    margin-inline: 5px;
+}
+
+.container {
+    display: flex;
+}
+
+.review {
+    width: 250px;
+    height: 200px;
+}
