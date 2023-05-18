@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+.img-fluid{
+    width: 10vh;
+    height: 10vh;
+}
+
+.header{
+    display: flex;
+}
 .produto-placa-mae{
     display: flex;
     flex-wrap: wrap;
