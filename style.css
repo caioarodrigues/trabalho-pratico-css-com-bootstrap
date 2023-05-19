@@ -4,13 +4,34 @@
     box-sizing: border-box;
 }
 
+.infos-adicionais{
+    display: flex;
+    width: 100%;
+ 
+    justify-content: end;
+    align-items:flex-end;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    
+
+}
+
+
+.infos>a{
+    text-decoration: none;
+    color:aqua;
+    padding-right: 5vh;
+}
+
 .img-fluid{
-    width: 10vh;
-    height: 10vh;
+    width: 80%;
+    height: 80%;
+    padding-bottom: 10px;
 }
 
 .header{
     display: flex;
+    background-color: #956865;
 }
 .produto-placa-mae{
     display: flex;
