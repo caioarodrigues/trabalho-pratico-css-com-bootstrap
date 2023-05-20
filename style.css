@@ -200,15 +200,30 @@ header{
 }
 
 .card{
+    margin-block: 5px;
     height: fit-content;
+    height: 100%;
+    align-items: center;
 }
 
+.aside{
+    background-color: #ccc;
+    border-radius: 5px;
+    height: fit-content;
+}
 .card-img-top{
     height: 10vh;
     width: 10vh;
     align-self: center;
 }
 
+.review{
+    border: solid 3px grey;
+}
+
+.sugestoes-div > h3, .ultimas-avaliacoes > h3{
+    color: white;
+}
 .sugestoes .card{
     display: flex;
     align-items: center;
@@ -240,4 +255,26 @@ header{
     width: 100%;
 }
 
+}
+
+.produto-placa-mae{
+    align-items: center;
+    justify-content: center;
+}
+
+.produto-placa-mae > .card {
+    margin: 10px;
+}
+
+.informacoes-produto{
+    width: 100%;
+}
+
+.informacoes-produto > .alert, .oferta, .btn{
+    margin: 5px;
+}
+
+fieldset{
+    background-color: #ccc;
+    padding: 5px;
 }
