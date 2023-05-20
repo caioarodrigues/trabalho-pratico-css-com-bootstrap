@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-
-
-
-
+.all_body{
+    background-color: #912424;
+    justify-content: center;
+}
 
 .infos-adicionais{
     display: flex;
@@ -44,94 +44,9 @@ header{
   }
 
 
-.infos>a{
-    text-decoration: none;
-    color:aqua;
-    margin-right: 2vh;
-    font-size: 2vh;
-}
-
-.infos{
-    display:inline-flex;
-    width: 100%;
-    justify-content: end;
-    padding-left: 2vh;
-}
 
 
-
-.logogeral.img-logo{
-    width: 50px;
-    height: 50px;
-}
-
-.logogeral.img-logo>img{
-   
-}
-
-
-.logogeral{
-  padding: 5px;
-  display: flex;
-  color:#912424;
-  align-items:center;
-  width: inherit;
-
-}
-
-.header{
-    display:flex;
-    background-color: #956865;
-}
-.produto-placa-mae{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.picture img{
-    width: 200px;
-    height: 200px;
-}
-
-.ultimas-avaliacoes-alert{
-    display: flex;
-}
-
-.sugestoes{
-    display: flex;
-}
-
-.estrela{
-    color: rgb(235, 235, 41);
-}
-
-.card{
-    height: fit-content;
-}
-
-.card-img-top{
-    height: 10vh;
-    width: 10vh;
-    align-self: center;
-}
-
-.sugestoes .card{
-    display: flex;
-    align-items: center;
-}
-.sections {
-    width: 80%;
-   
-}
-
-.container {
-    display:flex;
-    padding-left: 0;
-    margin-left: 0;
-    width: 100%;
-}
-
-.review {
+  .review {
     width: 80%;
     height: 80%;
 }
@@ -175,4 +90,154 @@ header{
     width: 100%;
     align-self: flex-end;
     flex-flow: row wrap;
+}
+
+.infos-adicionais{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items:flex-end;
+    padding-bottom: 10px;
+}
+
+header{
+    width: 100%;
+}
+
+.texto-logo{
+    display: flex-column;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+
+.texto-logo>h3{
+  font-size: larger;
+    
+    font-size: 30px;
+}
+.texto-logo>p{
+    
+    font-size: 15px;
+}
+
+
+
+
+.custom-dropdown .dropdown-item:hover {
+    background-color: #0b0f13; /* Defina a cor desejada aqui */
+  }
+
+
+.infos>a{
+    text-decoration: none;
+    color:aqua;
+    margin-right: 2vh;
+    font-size: 1em;
+}
+
+.infos{
+    display:flex;
+    width: 100%;
+    justify-content: end;
+    padding-left: 1vh;
+}
+
+
+
+
+
+.logogeral{
+    padding: 5px;
+    display: flex;
+    color:#912424;
+    align-items:center;
+    width: inherit;
+  
+  }
+  
+  
+  .all_body{
+      width: 100%;
+  }
+
+
+.logogeral.img-logo{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+.header{
+    display:flex;
+    background-color: #956865;
+}
+.produto-placa-mae{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.picture img{
+    width: 200px;
+    height: 200px;
+}
+
+.ultimas-avaliacoes-alert{
+    display: flex;
+}
+
+.sugestoes{
+    display: flex;
+}
+
+.estrela{
+    color: rgb(235, 235, 41);
+}
+
+.card{
+    height: fit-content;
+}
+
+.card-img-top{
+    height: 10vh;
+    width: 10vh;
+    align-self: center;
+}
+
+.sugestoes .card{
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (min-width: 1316px) and (max-width: 3200px){
+
+.container_1{
+    width:100vw;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+.container_1{
+    width:100%;
+}
+
+
+
+.container_1{
+    display:flex;
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%;
+}
+
 }

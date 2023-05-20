@@ -1,8 +1,18 @@
-@media only screen and (min-width: 10px) and (max-width: 750px){
-    .container{
+@media only screen and (min-width: 10px) and (max-width: 1316px){
+    .container_1{
         flex-direction: column;
+        width:100%;
     }
-    .sections, .aside{
+    .sections .aside{
+        width: 100%;
+    }
+
+    .all_body{
+        width: 100%;
+    }
+    
+
+    .produto-placa-mae{
         width: 100%;
     }
 }
