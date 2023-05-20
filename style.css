@@ -25,14 +25,18 @@
 
 
 .texto-logo>h3{
+  font-size: larger;
     
-    font-size: 3vh;
+    font-size: 5vh;
 }
 .texto-logo>p{
     
     font-size: 1vh;
 }
 
+.custom-dropdown .dropdown-item:hover {
+    background-color: #0b0f13; /* Defina a cor desejada aqui */
+  }
 
 
 .infos>a{
@@ -48,12 +52,19 @@
 }
 
 
+.logogeral>img{
+    max-width: 10%;
+    height: 10%; 
+}
 
 
-
-.img-fluid{
-   width: max-content;
-    padding-bottom: 10px;
+.logogeral{
+  padding: 5px;
+  display: flex;
+  color:#912424;
+  align-items:center;
+  width: inherit;
+  justify-content: space-between;
 }
 
 .header{
