@@ -7,11 +7,6 @@
         width: 100%;
     }
 
-.review-produto{
-    height: ;
-}
-
-
     .review{
         width: 100%;
         height: 100%;
@@ -73,5 +68,12 @@ background-color: rgb(176, 168, 178);
 
 }
 
+    .alert{
+        align-items: center;
+    }
 
+    .review {
+        width: 20em;
+        height: 15em;
+    }
 }

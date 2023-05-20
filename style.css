@@ -65,8 +65,8 @@ header{
 
 
   .review {
-    width: 80%;
-    height: 80%;
+    width: 40vh;
+    height: 30vh;
 }
 
 
@@ -310,3 +310,18 @@ fieldset{
     padding: 5px;
 }
 
+.sugestoes-div > .sugestoes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sugestoes-div > .sugestoes .center .card{
+    width: 10em;
+}
+
+#review-produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
