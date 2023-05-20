@@ -10,17 +10,11 @@
 
 
 .infos-adicionais{
-
- 
-
     display: flex;
     width: 100%;
- 
     justify-content: end;
     align-items:flex-end;
     padding-bottom: 10px;
-   
-
 }
 
 header{
@@ -38,11 +32,11 @@ header{
 .texto-logo>h3{
   font-size: larger;
     
-    font-size: 5vh;
+    font-size: 30px;
 }
 .texto-logo>p{
     
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .custom-dropdown .dropdown-item:hover {
@@ -53,18 +47,26 @@ header{
 .infos>a{
     text-decoration: none;
     color:aqua;
-    margin-right: 0.5vh;
-    font-size: 1.8vh;
+    margin-right: 2vh;
+    font-size: 2vh;
 }
 
 .infos{
     display:inline-flex;
+    width: 100%;
+    justify-content: end;
+    padding-left: 2vh;
 }
 
 
-.logogeral>img{
-    max-width: 10%;
-    height: 10%; 
+
+.logogeral.img-logo{
+    width: 50px;
+    height: 50px;
+}
+
+.logogeral.img-logo>img{
+   
 }
 
 
@@ -74,7 +76,7 @@ header{
   color:#912424;
   align-items:center;
   width: inherit;
-  justify-content: space-between;
+
 }
 
 .header{
@@ -138,12 +140,14 @@ header{
 #lingua{
     display:flex;
     flex-direction: row;
-    width: 100%;
+    justify-content: end;
+    margin-right: 2em;
+    margin-left: 2em;
 }
 
   #lingua .linguagem {
-    width:15%;
-    height: 10%;
+    width:3em;
+    height: 3em;
     margin-right: 10px;
     font-weight: bold;
     font-size: 1vh;
