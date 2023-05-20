@@ -1,0 +1,8 @@
+@media only screen and (min-width: 10px) and (max-width: 750px){
+    .container{
+        flex-direction: column;
+    }
+    .sections, .aside{
+        width: 100%;
+    }
+}
