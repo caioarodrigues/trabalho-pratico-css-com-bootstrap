@@ -43,6 +43,24 @@ header{
     background-color: #0b0f13; /* Defina a cor desejada aqui */
   }
 
+.footer-container{
+    background-color: #936595;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.footer-container .social-media{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.footer-container .social-media .id2{
+   padding-right: 10px;
+}
+
+
 
 
 
@@ -229,12 +247,25 @@ header{
     align-items: center;
 }
 
-@media only screen and (min-width: 1316px) and (max-width: 3200px){
 
-.container_1{
-    width:100vw;
-    background-color: blue;
-}
+
+.container-fluid{
+    justify-content:left;}
+
+@media only screen and (min-width: 700px) and (max-width: 3200px){
+
+
+    .sugestoes{
+        display: flex;
+        background-color: aliceblue;
+    }
+
+body > div > section > div > section > div.sugestoes-div > div> center{
+        display: flex;
+        
+        margin-left: 15px;
+    }
+    
 
 
 
@@ -278,3 +309,4 @@ fieldset{
     background-color: #ccc;
     padding: 5px;
 }
+
