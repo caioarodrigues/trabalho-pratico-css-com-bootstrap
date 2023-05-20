@@ -16,16 +16,43 @@
 
 }
 
+.texto-logo{
+    display: flex-column;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+
+.texto-logo>h3{
+    
+    font-size: 3vh;
+}
+.texto-logo>p{
+    
+    font-size: 1vh;
+}
+
+
 
 .infos>a{
     text-decoration: none;
     color:aqua;
-    padding-right: 5vh;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-size: 60%;
 }
 
+.infos{
+    display:inline-flex;
+}
+
+
+
+
+
 .img-fluid{
-    width: 80%;
-    height: 80%;
+   width: max-content;
     padding-bottom: 10px;
 }
 
@@ -60,8 +87,8 @@
 }
 
 .card-img-top{
-    height: 100px;
-    width: 100px;
+    height: 10vh;
+    width: 10vh;
     align-self: center;
 }
 
@@ -71,14 +98,39 @@
 }
 .sections {
     width: 80%;
-    margin-inline: 5px;
+   
 }
 
 .container {
-    display: flex;
+    display:flex;
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%;
 }
 
 .review {
-    width: 250px;
-    height: 200px;
+    width: 80%;
+    height: 80%;
 }
+
+
+#lingua{
+    display:flex;
+    flex-direction: row;
+}
+
+  #lingua .linguagem {
+    width:2vh;
+    height: 2vh;
+    margin-right: 3px;
+    font-weight: bold;
+    font-size: 0.8vw;
+    border-radius: 4px;
+    background-color:white ;
+    cursor: pointer;
+    text-align: center;
+    align-self: center;
+    border: solid 2px black;
+    padding: 3px;
+   
+  }
